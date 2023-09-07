@@ -68,10 +68,8 @@
             }
         },
         {
-            "alphaCutoff" : 0.8399999737739563,
-            "alphaMode" : "MASK",
             "doubleSided" : true,
-            "name" : "gras_and_veg",
+            "name" : "swing",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 1
@@ -128,9 +126,9 @@
             "uri" : "stones_baseColor.jpg"
         },
         {
-            "mimeType" : "image/png",
-            "name" : "gras_and_veg_baseColor",
-            "uri" : "gras_and_veg_baseColor.png"
+            "mimeType" : "image/jpeg",
+            "name" : "swing_baseColor",
+            "uri" : "swing_baseColor.jpg"
         }
     ],
     "accessors" : [
