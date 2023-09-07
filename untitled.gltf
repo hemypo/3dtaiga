@@ -18,10 +18,10 @@
             "mesh" : 0,
             "name" : "Curve.002",
             "rotation" : [
-                0.6011702418327332,
-                0.37228265404701233,
-                -0.3722826838493347,
-                0.6011701822280884
+                0.7058713436126709,
+                -0.041782379150390625,
+                0.041782379150390625,
+                0.7058712244033813
             ],
             "scale" : [
                 5764.1494140625,
@@ -29,19 +29,19 @@
                 5764.1484375
             ],
             "translation" : [
-                19.776260375976562,
+                50.442726135253906,
                 -10.935043334960938,
-                -95.09078979492188
+                -38.3291015625
             ]
         },
         {
             "mesh" : 1,
             "name" : "Curve.003",
             "rotation" : [
-                0.6011703014373779,
-                0.3722826838493347,
-                -0.3722827136516571,
-                0.6011700630187988
+                0.7058713436126709,
+                -0.04178228974342346,
+                0.04178240895271301,
+                0.7058711647987366
             ],
             "scale" : [
                 5764.1494140625,
@@ -49,33 +49,19 @@
                 5764.1484375
             ],
             "translation" : [
-                -30.153583526611328,
+                -60.820045471191406,
                 -10.935043334960938,
-                5.21441650390625
+                -51.547271728515625
             ]
         }
     ],
     "materials" : [
         {
             "doubleSided" : true,
-            "name" : "stones",
+            "name" : "Material",
             "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 0
-                },
                 "metallicFactor" : 0,
-                "roughnessFactor" : 0.6000000238418579
-            }
-        },
-        {
-            "doubleSided" : true,
-            "name" : "swing",
-            "pbrMetallicRoughness" : {
-                "baseColorTexture" : {
-                    "index" : 1
-                },
-                "metallicFactor" : 0,
-                "roughnessFactor" : 0.6000000238418579
+                "roughnessFactor" : 0.4000000059604645
             }
         }
     ],
@@ -104,31 +90,9 @@
                         "TEXCOORD_0" : 6
                     },
                     "indices" : 7,
-                    "material" : 1
+                    "material" : 0
                 }
             ]
-        }
-    ],
-    "textures" : [
-        {
-            "sampler" : 0,
-            "source" : 0
-        },
-        {
-            "sampler" : 0,
-            "source" : 1
-        }
-    ],
-    "images" : [
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "stones_baseColor",
-            "uri" : "stones_baseColor.jpg"
-        },
-        {
-            "mimeType" : "image/jpeg",
-            "name" : "swing_baseColor",
-            "uri" : "swing_baseColor.jpg"
         }
     ],
     "accessors" : [
@@ -241,12 +205,6 @@
             "buffer" : 0,
             "byteLength" : 264,
             "byteOffset" : 6056
-        }
-    ],
-    "samplers" : [
-        {
-            "magFilter" : 9729,
-            "minFilter" : 9987
         }
     ],
     "buffers" : [
